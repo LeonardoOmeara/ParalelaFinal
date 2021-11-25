@@ -8,9 +8,6 @@ ejemplo en varios ejercicios prácticos a lo largo del curso.
 
 El archivo test.py ejecuta las iteraciones para Python y Cython
 
-### Perfilamiento del algoritmo implementado en Python
-Se 
-
 
 ### Perfilamiento para Cython
 Se realizó un archivo `.pyx` con una implementación simple en Cython del archivo `heat.py` con el fin de comparar resultados en cuanto a tiempo de ejecucion. 
@@ -22,21 +19,20 @@ Ahora, se ejecuto la siguiente linea de codigo:
 python3 setup.py build_ext --inplace
 ```
 como resultado se obtiene la conversion de el archivo heat.py a C y un archivo `.so`. 
-```
 
 Resultados
 
 
 
 
-![image-2](./img/1.png)
+[image2](./img/1.png)
 
 
-![image-3](./img/2.png)
+[image3](./img/2.png)
 
 ### Conclusiones
-* Mientras mas grande o complejo sea el algoritmo en python, su diferencia en cuanto a rendimiento va a ser proporcional a la complejidad del mismo junto con la biblioteca `timeit` para comparación de tiempos.
 
+* Mientras mas grande o complejo sea el algoritmo en python, su diferencia en cuanto a rendimiento va a ser proporcional a la complejidad del mismo junto con la biblioteca `timeit` para comparación de tiempos.
 
 
 * Aunque las implementaciones en Cython mejoran el rendimiento respecto a las de Python se puede ver que desarrollar los algoritmos de Cython toman más tiempo y tienen un grado mayor de complejidad a la hora de desarrollarlos, además se deben tener conocimientos sobre los fundamentos del lenguaje de programación C.
