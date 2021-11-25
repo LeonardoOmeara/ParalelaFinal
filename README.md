@@ -25,10 +25,10 @@ Resultados
 
 
 
-[image2](./img/1.png)
+![image2](./img/1.png)
 
 
-[image3](./img/2.png)
+![image3](./img/2.png)
 
 ### Conclusiones
 
@@ -48,4 +48,6 @@ Resultados
 * Michael Pinzon
 * Juan Arteaga
 * Johan Herrera
+
+
  _Universidad Sergio Arboleda_
